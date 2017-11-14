@@ -1,7 +1,12 @@
 "*":
   core:
     telemetryConsent: "no"
-  editor: {}
+    themes: [
+      "atom-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    showIndentGuide: true
   "exception-reporting":
     userId: "766b1daa-3fe6-4ae6-9759-10491301bdfe"
   welcome:
