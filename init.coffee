@@ -1,5 +1,5 @@
 atom.context.add{
   'atom-workspace':[
-      {label: 'Fixlint', command: linter_eslint:fix-file'}
+      {label: 'Fixlint', command: 'linter_eslint:fix-file'}
   ]
 }
