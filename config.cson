@@ -1,13 +1,25 @@
 "*":
+  "atom-ide-ui":
+    use: {}
   core:
-    telemetryConsent: "no"
+    disabledPackages: [
+      "linter"
+    ]
+    ignoredNames: [
+      "node_modules"
+    ]
+    telemetryConsent: "limited"
     themes: [
       "atom-light-ui"
       "one-light-syntax"
     ]
+    useTreeSitterParsers: false
   editor:
+    fontFamily: "PragmataPro, Menlo, Consolas, DejaVu Sans Mono, monospace"
     showIndentGuide: true
-  "exception-reporting":
-    userId: "766b1daa-3fe6-4ae6-9759-10491301bdfe"
+  "linter-ui-default":
+    panelHeight: 208
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
