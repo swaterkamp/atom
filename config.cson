@@ -1,13 +1,40 @@
 "*":
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui":
+      showDirectoryColumn: true
+    use: {}
   core:
-    telemetryConsent: "no"
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "linter"
+    ]
+    ignoredNames: [
+      "node_modules"
+    ]
+    telemetryConsent: "limited"
     themes: [
-      "atom-light-ui"
+      "one-light-ui"
       "one-light-syntax"
     ]
+    useTreeSitterParsers: false
   editor:
+    fontFamily: "PragmataPro, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    fontSize: 15
     showIndentGuide: true
   "exception-reporting":
-    userId: "766b1daa-3fe6-4ae6-9759-10491301bdfe"
+    userId: "e656dea3-cfc8-4dcf-ada1-4851bee32236"
+  "linter-eslint":
+    autofix: {}
+    disabling: {}
+    global:
+      eslintrcPath: "/home/swaterkamp/source/gsa/gsa/.eslintrc.js"
+  "linter-pylint":
+    executablePath: "/home/swaterkamp/source/hyperion/hyperion/.venv/bin/pylint"
+    pythonPath: "/home/swaterkamp/source/hyperion/hyperion/.venv/bin/python"
+    rcFile: "%p"
+  "linter-ui-default":
+    panelHeight: 192
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
