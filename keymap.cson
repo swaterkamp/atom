@@ -1,2 +1,4 @@
 'atom-text-editor:not([mini])':
   'ctrl-shift-X': 'editor:delete-line'
+'atom-text-editor':
+  'alt-c': 'custom:consolelog'
