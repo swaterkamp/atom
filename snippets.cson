@@ -1,0 +1,4 @@
+'.source.js':
+  'console.log':
+    'prefix': 'cc'
+    'body': 'console.log(\'${1:42}\');$2'
